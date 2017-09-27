@@ -1,0 +1,1755 @@
+
+.main{
+    width: 80%;
+}
+/*服务目录部分*/
+.serve_nenu{
+    width: 100%;
+    overflow: hidden;
+    background: #f9f9f9;
+    border:1px solid #e9e9e9;
+}
+.serve_nenu_title{
+    width: 100%;
+    margin:2px;
+    height: 35px;
+    line-height: 39px;
+    background: #00a1de;
+}
+.serve_nenu_title h3{
+    font-size: 20px;
+    color: #ffffff;
+    display: inline-block;
+    margin:0;
+    margin-left:15px;
+}
+
+
+.serve_imgupdate_box{
+    width: 95%;
+    margin:20px auto;
+}
+.serve_nenu1 .title{
+    margin:0 auto;
+}
+.serve_box{
+    margin:0 auto 15px;
+}
+.serve_box>div{
+    margin:0px 5%;
+    overflow: hidden;
+}
+.serve_box label{
+   font-size: 15px;
+   font-weight:normal;
+    color: #000000;
+    float: left;
+    line-height: 28px;
+    width:100px;
+}
+.serve_box a{
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    line-height: 28px;
+
+}
+.serve_box a:focus{
+    text-decoration:  none;
+    outline: none;
+}
+.serve_box a.btn1{
+    width: 88px;
+    height: 28px;
+    background: url(../img/fuwumenu_btn1.png) no-repeat;
+}
+.serve_box a.btn2{
+    width: 88px;
+    height: 28px;
+    background: url(../img/fuwumenu_btn2.png) no-repeat;
+}
+.serve_imgupdate_left{
+    overflow: hidden;
+}
+.serve_imgupdate{
+    width: 90%;
+    margin:0 auto;
+}
+.serve_imgupdate img{
+    width: 70%;
+    margin:0 auto;
+    border:1px solid #7dd1f1;
+}
+.serve_imgupdate a{
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    font-size: 15px;
+    font-family: "黑体";
+    font-weight: bold;
+    color: #fff;
+    margin:15px auto;
+    text-align: center;
+    border-radius: 10px;
+     -moz-border-radius: 10px;
+    -ms-border-radius:10px;
+    border-radius: 10px;
+    behavior: url(PIE.htc);
+    background: #00b5b1;
+}
+.serve_imgupdate a:focus{
+    text-decoration: none;
+}
+.serve_imgupdate_right{
+    overflow: hidden;
+}
+.serve_imgupdate_right>div{
+    width: 90%;
+    margin:0px auto 20px;
+    height: 46px;
+}
+.serve_imgupdate_right>div>label{
+    font-size: 15px;
+    font-weight:normal;
+    color: #000000;
+    margin-right: 3%;
+     float: left;
+     line-height: 46px;
+}
+.serve_imgupdate_right>div .serve_imgupdate_right_text{
+      float: left;
+    width: 60%;
+    height: 46px;
+    line-height: 46px;
+    border:1px solid #7dd1f1;
+    text-indent:15px;
+    font-size: 15px;
+}
+.serve_imgupdate_right>div .sel-box3{
+    float: left;
+    width: 60%;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #7dd1f1;
+}
+.serve_imgupdate_right>div textarea{
+    width: 60%;
+    height: 200px;
+    border:1px solid #7dd1f1;
+     float: left;
+    text-indent:15px;
+    font-size: 15px;
+    resize: none;
+}
+.serve_imgupdate_right>div a{
+    width: 10%;
+    float: left;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    height: 46px;
+    line-height: 46px;
+    border: 1px solid #7dd1f1;
+    background: #7dd1f1;
+}
+
+.serve_box .check_box{
+    background: #daebf1;
+}
+.serve_box .r-check{
+    width: 30%;
+    margin-bottom: 0;
+    float: left;
+    height: 46px;
+}
+.serve_box .r-check li{
+    line-height:46px;
+    position: relative;
+    width: 100%;
+}
+.serve_box .r-check li input{
+    position: absolute;
+    top: 10px;
+     left: 0px; 
+    z-index: 10;
+    width: 26px;
+    height: 26px;
+    opacity:0;
+    border:1px solid #e9e9e9;
+}
+.serve_box .r-check li label{
+    font-weight:normal;
+    font-size:18px;
+    margin-left:25px;
+}
+.serve_box .r-check li p{
+    font-size:15px;
+    width: 100%;
+    height: 42px;
+     position: absolute;
+    top: 0px;
+     left: 50px; 
+    z-index: 10;
+}
+
+.serve_box .r-check li label:before{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 0;
+    top:10px;
+    border: 1px solid #e9e9e9;
+    line-height: 20px;
+    background: #ffffff;
+}
+.serve_box .r-check .gou-active label:before{
+    content:url("../img/gou-03.jpg");
+}
+
+.serve_box>div table{
+    width: 100%;
+    border:1px solid #7dd1f1;
+    background: #ffffff;
+}
+.serve_box>div table thead{
+    height:45px;
+    width: 100%;
+    background: url(../img/server_menu_tb.jpg) repeat-x;
+    border-bottom:1px solid #7dd1f1;
+}
+.serve_box>div table thead th{
+    height: 45px;
+    width: 30%;
+    text-align: center;
+    font-size: 15px;
+    color: #006bae
+}
+.serve_box>div table tr td{
+    height: 80px;
+    text-align: center;
+    font-size: 15px;
+    color: #333333;
+}
+.serve_box>div table tr td a{
+    width: 20%;
+    text-align: center;
+    height: 30px;
+    color: #fff;
+    border-radius: 50px;
+     -moz-border-radius: 50px;
+    -ms-border-radius:50px;
+    border-radius: 50px;
+    behavior: url(PIE.htc);
+    background: #e8001e;
+    display: inline-block;
+    margin:15px 15px;
+    float: none;
+    line-height: 30px;
+}
+.serve_box>div table tr td a:first-child{
+    background:#00b5b1;
+}
+.serve_box_btn{
+    width: 450px;
+    margin:0 auto;
+}
+.serve_box_btn a{
+    display: inline-block;
+    margin-left:120px;
+    width: 160px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 24px;
+    background: url(../img/fuwumenu_cancel.png) no-repeat;
+}
+.serve_box_btn a:first-child{
+    background: url(../img/fuwumenu_save.png) no-repeat;
+     margin-left:0;
+}
+
+/*上传PC端头像模态框*/
+.newpcimg{
+    width:510px;
+    height:180px;
+    margin:-100px 0 0 -260px;
+}
+
+/*上传手机端端头像模态框*/
+.newphoneimg{
+    width:510px;
+    height:180px;
+    margin:-100px 0 0 -260px;
+}
+/*服务目录属性模态框*/
+.server_menu{
+     width:510px;
+    height:380px;
+    margin:-190px 0 0 -260px;
+}
+.server_menu .modal-body ul{
+    width: 90%;
+    margin:0 auto;
+    overflow: hidden;
+    height: 50px;
+}
+
+.server_menu .modal-body .r-check1 li{
+    line-height:46px;
+    position: relative;
+    width: 100%;
+}
+.server_menu .modal-body .r-check1 li input{
+    position: absolute;
+    top: 15px;
+    right: 0px; 
+    z-index: 10;
+    width: 25px;
+    height: 25px;
+    opacity:0;
+    border:1px solid #e9e9e9;
+}
+.server_menu .modal-body .r-check1 li label{
+    font-weight:normal;
+    font-size:18px;
+    margin-left:25px;
+    float: right;
+}
+.server_menu .modal-body .r-check1 li p{
+    font-size:15px;
+    width: 100%;
+    height: 42px;
+     position: absolute;
+    top: 5px;
+     left: 0px; 
+    z-index: 10;
+}
+
+.server_menu .modal-body .r-check1 li label:before{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 0px; 
+    top:15px;
+    border: 1px solid #7dd1f1;
+    line-height: 20px;
+    background: #ffffff;
+}
+.server_menu .modal-body .r-check1 .gou-active label:before{
+    content:url("../img/gou-05.png");
+}
+
+
+/*工单添加与编辑模态框*/
+.newgworkorder{
+    width:590px;
+    height:530px;
+    margin:-265px 0 0 -295px;
+}
+.newgworkorder .modal-body{
+    height:240px;
+}
+.newgworkorder .modal-body form>div{
+    width: 100%;
+    height: 36px;
+    margin:0px auto 10px;
+}
+.newgworkorder .modal-body form>div>label{
+    width: 130px;
+    font-size: 15px;
+    font-weight: normal;
+    color:#000000;
+    float: left;
+    line-height: 35px;
+}
+.newgworkorder .modal-body form>div .sel-box4{
+    float: left;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #7dd1f1;
+    width:300px !important;
+}
+.newgworkorder .modal-body form>div .sel-box4 .selectpick_div_box{
+     width: 298px !important;
+}
+.newgworkorder .modal-body form>div .sel-box4 .selectpick_div{
+    width: 298px !important;
+    height: 32px !important;
+    line-height: 32px !important;
+}
+.newgworkorder .modal-body form>div .sel-box5 .selectpick_options {
+    top: 32px !important;
+}
+
+.newgworkorder .modal-body form>div .selectpick_icon {
+    float: right;
+    background: url(../img/bottom3.png) no-repeat center;
+    height: 24px;
+    width: 60px;
+    cursor: pointer;
+    margin: 5px 3px;
+}
+
+
+.newgworkorder .modal-body form>div>input{
+    float: left;
+    width: 300px; 
+    height: 36px;
+    line-height: 34px;
+    border: 1px solid #7dd1f1;
+    font-size: 16px;
+    text-indent: 17px;
+}
+.newgworkorder .modal-body form>div>a{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background: #00b5b1;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius:50px;
+    border-radius: 50px;
+    display: block;
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    behavior: url(PIE.htc);
+    margin:3px 0 0 15px;
+}
+.newgworkorder .modal-body form>div textarea{
+    width: 300px;
+    height: 130px;
+     resize:none;
+   border:1px solid #7dd1f1;
+   font-size: 16px;
+   text-indent: 17px;
+}
+
+/*请求属性模态框*/
+.repuestattr{
+    width:780px;
+    height:490px;
+    margin:-245px 0 0 -390px;
+}
+.repuestattr .modal-body form>div{
+    width: 720px;
+    margin:0 auto 10px;
+    overflow: hidden;
+}
+.repuestattr .modal-body form>div>label{
+    width: 150px;
+    font-size: 15px;
+    font-weight: normal;
+    color:#000000;
+    float: left;
+    line-height: 40px;
+}
+.repuestattr .modal-body form>div>a{
+    width: 140px;
+    height: 35px;
+    line-height: 35px;
+    background: #f27487;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius:50px;
+    border-radius: 50px;
+    display: block;
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    behavior: url(PIE.htc);
+    margin:3px 0 0 30px;
+}
+.repuestattr .modal-body form>div>a:nth-child(2){
+    background: #00b1ad;
+}
+.repuestattr .modal-body form>div>a:last-child{
+    background: #fe9400;
+}
+.repuestattr .modal-body form>div.textarea{
+    /*margin-top:25px;*/
+    width: 720px;
+    height: 130px;
+   border:1px solid #7dd1f1;
+   font-size: 14px;
+   background-color:#ffffff;
+   overflow: hidden;
+}
+.repuestattr .modal-body form>div.textarea>div{
+    float: left;overflow: hidden;
+    margin:10px;
+}
+.repuestattr .modal-body form>div.textarea>div a{
+    float: left;
+    margin-left:5px;
+    display: block;
+    color:#286da6;
+}
+.repuestattr .modal-body form>div.textarea>div a.delete{
+    font-family: "黑体";
+}
+.repuestattr .modal-body form>div.textarea>div a.delete:hover{
+    color: #ffffff;
+    background: #6eb4e7;
+}
+/*添加标签弹出框样式*/
+.addbiaoqian{
+    display: none;
+    padding-right: 17px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1051;
+}
+.addbiaoqian .addtags{
+    width: 730px;
+    height: 366px;
+    margin:-183px 0 0 -365px;
+}
+.addbiaoqian .addtags .modal-body{
+    width: 720px;
+    margin:0 auto;
+    min-height: 255px;
+    overflow: hidden;
+}
+
+.addbiaoqian .addtags .modal-body form>div{
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.addbiaoqian .addtags .modal-body form>div>label{
+    margin-right: 35px;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 36px;
+    width:60px;
+    margin-bottom: 0;
+}
+.addbiaoqian .addtags .modal-body form>div>input{
+    width: 526px;
+    float: left;
+    height:36px;
+    line-height: 36px;
+    border: 1px solid #7dd1f1;
+    font-size: 16px;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab{
+    width: 526px;
+    min-height: 170px;
+    float: left;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_menu{
+    margin-top: 15px;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_menu ul{
+    overflow: hidden;
+    margin:0;
+    padding:0;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_menu ul li{
+    float: left;
+    color:#286da6;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    font-weight: normal;
+    font-size: 12px;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_menu ul li.selected{
+    color:#ffffff;
+    background: #6eb4e7;
+    border-top: 1px solid #4d88bb;
+    border-bottom: 1px solid #66b0de;
+    border-left: 1px solid #5b9ece;
+    border-right: 1px solid #5b9ece;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_menu ul li:hover{
+    color:#286da6;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box>div{
+    overflow: hidden;
+    width: 526px;
+    height: auto;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1>div{
+    overflow: hidden;
+    margin: 5px auto;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1>div label{
+    float: left;
+    font-size: 12px;
+    color: #36466f;
+    width: 60px;
+    line-height: 30px;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1>div input[type=text]{
+    width: 230px;
+    height: 30px;
+    border:1px solid #7eadd9;
+    float:left;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1>div p{
+    float: left;margin-left: 5px; 
+    float: left;
+    font-size: 12px;
+    color: #36466f;
+    line-height: 30px;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1 ul{
+    margin:0;padding:0;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1 ul li{
+    margin:0;padding:0;
+}
+
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1 ul{
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1 .r-check1 li{
+    line-height:30px;
+    position: relative;
+    width: 100%;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1 .r-check1 li input{
+    position: absolute;
+    top: 5px;
+    left: 5px; 
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    opacity:0;
+    border:1px solid #e9e9e9;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1 .r-check1 li label{
+    font-weight:normal;
+    font-size:15px;
+    margin-left:25px;
+    float: right;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1 .r-check1 li p{
+    font-size:12px;
+    width: 100%;
+   /* height: 42px;*/
+     position: absolute;
+    top: 2px;
+     left: 50px; 
+    z-index: 10;
+    margin-bottom: 0;
+}
+
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1 .r-check1 li label:before{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 5px; 
+    top:5px;
+    border: 1px solid #7dd1f1;
+    line-height: 20px;
+    background: #ffffff;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1 .r-check1 .gou-active label:before{
+    content:url("../img/gou-06.jpg");
+}
+
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 table{
+    width: 100%;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 table th,.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 table td{
+    text-align: center;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 tbody{
+    height: 80px;
+    overflow-y:scroll; 
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 ul{
+    margin:0;padding:0;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 ul li{
+    margin:0;padding:0;
+}
+
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 ul{
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 .r-check1 li{
+    line-height:30px;
+    position: relative;
+    width: 100%;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 .r-check1 li input{
+    position: absolute;
+    top: 5px;
+    left: 5px; 
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    opacity:0;
+    border:1px solid #e9e9e9;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 .r-check1 li label{
+    font-weight:normal;
+    font-size:15px;
+    margin-left:25px;
+    float: right;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 .r-check1 li p{
+    font-size:14px;
+    width: 100%;
+   /* height: 42px;*/
+     position: absolute;
+    top: 0px;
+     left: 100px; 
+    z-index: 10;
+    margin-bottom: 0;
+}
+
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 .r-check1 li label:before{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 5px; 
+    top:5px;
+    border: 1px solid #7dd1f1;
+    line-height: 20px;
+    background: #ffffff;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 .r-check1 .gou-active label:before{
+    content:url("../img/gou-06.jpg");
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 table td>input{
+    width: 200px;
+    border: 1px solid #7eadd9;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 table thead>tr{
+background: #dcedff;
+    font-size: 12px;
+    font-weight: bold;
+    height: 31px;
+    min-height: 31px;
+    }
+
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 table tr{
+    height: 40px;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 table td .r-check1 li input{
+    position: absolute;
+    top: 0px;
+    left: 60px; 
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    opacity:0;
+    border:1px solid #e9e9e9;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 table td .r-check1 li label:before{
+    left: 60px; 
+    top:5px;
+    border: 1px solid #7dd1f1;
+    line-height: 20px;
+    background: #ffffff;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 table td a{
+    padding:5px;
+    background: #30629F;
+    color:#ffffff;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line2 table tbody td>div.checkbox{
+    margin:0;
+    width: 145px;
+}
+
+.addbiaoqian .addtags .modal-body form>div>div.tab .bcan{
+    overflow: hidden;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .bcan a{
+    float: right;
+    padding: 5px;
+    background: #30629F;
+    color: #ffffff;
+}
+.addbiaoqian .addtags .modal-body form>div>div.tab .tab_box .line1>div input[type=radio]{
+   margin:8px 5px 0;
+    float:left;
+}
+
+
+
+
+
+
+
+/*标签排序弹出框样式*/
+.biaoqiansort{
+    display: none;
+    padding-right: 17px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1051;
+}
+.biaoqiansort .tagssort{
+    width: 730px;
+    height: 366px;
+    margin:-183px 0 0 -365px;
+}
+.biaoqiansort .tagssort .modal-body{
+    width: 720px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.biaoqiansort .tagssort .modal-body form>table{
+    width: 100%;
+    overflow: hidden;
+}
+.biaoqiansort .tagssort .modal-body form>table th{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c1e4f1; 
+}
+.biaoqiansort .tagssort .modal-body form>table tbody tr{
+    line-height: 50px;
+}
+.biaoqiansort .tagssort .modal-body form>table tbody tr:first-child{
+    margin-top: 10px;
+}
+.biaoqiansort .tagssort .modal-body form>table tbody tr td{
+    font-size: 16px;
+    text-align: center;
+}
+.biaoqiansort .tagssort .modal-body form>table tbody tr td a{
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    border-radius: 50px;
+    display: inline-block;
+    background: #00b1ad;
+}
+.biaoqiansort .tagssort .modal-footer{
+    margin:20px auto;
+}
+/*.modal-footer button.rad{
+     -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    border-radius: 50px;
+}*/
+
+
+/*工单处理人选择*/
+.gdperchoice_box{
+    display: none;
+    padding-right: 17px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1051;
+}
+.modal .gdperchoice{
+    width:860px;
+    height:597px;
+    margin:-300px 0 0 -430px;
+}
+.modal .gdperchoice .modal-body{
+    height: 485px;
+}
+.modal .gdperchoice .gdperchoice_left{
+    float: left;
+    width: 25%;
+    margin-top: 15px;
+}
+.modal .gdperchoice .gdperchoice_left h3{
+    margin:0;
+    font-size: 18px;
+    line-height: 22px;
+}
+.gdperchoice_left .zz_box{
+    width: 100%;
+    height:425px;
+    overflow-x:scroll;
+    overflow-y:scroll;
+    background: #daf1fc; 
+    margin-top: 10px;
+}
+.modal .gdperchoice .gdperchoice_right{
+    float: right;
+    width: 70%;
+    height:457px;margin-top: 15px;
+}
+.gdperchoice_right_search{
+    width: 100%;
+    height: 32px;
+}
+.gdperchoice_right_search h3{
+    float: left;
+    font-size: 18px;
+    line-height: 22px;
+    color:#000000;
+    margin:0;
+    margin-right:10px;
+}
+.gdperchoice_right_search input{
+    float: left;
+    width: 70%;
+    height: 32px;
+    border:1px solid #99d9f3;
+    border-right: none;
+    text-indent: 10px;
+    line-height: 22px;
+    margin-top: -5px;
+    outline:none;
+}
+.gdperchoice_right_search button{
+    float: left;
+    width: 20%;
+    height: 32px;
+    border:1px solid #99d9f3;
+    border-left: none;
+    text-indent: 10px;
+    line-height: 22px;
+    margin-top: -5px;
+    outline:none;
+    padding:1px;
+    background: url(../img/perchoice_right_search.jpg) center center #ffffff;
+}
+.gdperchoice_right_tb{
+    margin-top: 10px;
+    width: 100%;
+    border:1px solid #99d9f3;
+    min-height: 415px;
+}
+.gdperchoice_right_tb table{
+    width: 100%;
+    overflow: hidden;
+}
+.gdperchoice_right_tb table thead{
+    background: #daf1fc;
+   
+    border-bottom:1px solid #99d9f3;
+}
+.gdperchoice_right_tb table thead th{
+    text-align: center;
+    width: 20%;
+    font-size: 14px;
+     height: 32px;
+     line-height: 32px;
+}
+.gdperchoice_right_tb table td>div{
+    margin-top: 10px;
+}
+
+
+
+.gdperchoice_right_tb table tr td{
+    text-align: center;
+    border-bottom:1px solid #ade1f5;
+    height: 56px;
+}
+.gdperchoice_right_tb table td .r-check{
+    width: 15%;
+}
+.gdperchoice_right_tb table td .r-check li{
+    line-height:34px;
+    position: relative;
+
+}
+.gdperchoice_right_tb table td .r-check li input{
+    position: absolute;
+    top: -3px;
+     left: 0px; 
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    opacity:0;
+}
+.gdperchoice_right_tb table td .r-check li label{
+    font-weight:normal;
+    font-size:15px;
+    margin-left:25px;
+    width: 20px;
+    height: 20px;
+}
+
+.gdperchoice_right_tb table td .r-check li label:before{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top:0px;
+    border: 1px solid #9e9e9e;
+    line-height: 20px;
+}
+.gdperchoice_right_tb table td .r-check .gou-active label:before{
+    content:url("../img/gou-02.jpg");
+}
+.gdperchoice_right_tb .fenpage{
+    float: right;
+    overflow: hidden;
+    /*width: 50%;*/
+    margin-top: 10px;
+}
+.gdperchoice_right_tb .fenpage a{
+    float: left;
+    width: 24px;
+    height:24px;
+    margin:0 5px;
+    text-decoration:none;
+     line-height: 24px;
+    text-align: center;
+    background: #daf1fc;
+    border:1px solid #99d9f3;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    behavior: url(PIE.htc);
+    font-size: 14px;
+    color:#0ca3dc;
+    font-family: "黑体";
+    float: left;
+    font-weight: bold;
+}
+.gdperchoice_right_tb .fenpage ul,.gdperchoice_right_tb .fenpage ul li{
+    float: left;
+    padding:0;
+}
+
+.gdperchoice_right_tb .fenpage a:hover,.gdperchoice_right_tb .fenpage a.active{
+    color:#ffffff;
+    background: #0ca3dc
+}
+
+/*事件属性*/
+
+.eventattr{
+    width: 630px;
+    height: 585px;
+    margin:-315px 0 0 -315px;
+}
+.eventattr .modal-body{
+    width: 628px;
+    margin:0 auto;
+    min-height: 440px;
+    overflow: hidden;
+}
+.eventattr .modal-body>form {
+    width: 100%;
+}
+
+.eventattr .modal-body>form>div.text,.eventattr .modal-body>form>div.text_sel{
+    width: 100%;
+    margin:0px auto 10px;
+    height: 34px;
+}
+.eventattr .modal-body>form>div.btn_b{
+     width: 100%;
+    margin:0px auto 0px;
+    overflow: hidden;
+}
+.eventattr .modal-body>form>div>label{
+    width: 100px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 15px;
+    margin-bottom: 0;
+    float: left;
+}
+.eventattr .modal-body>form>div a:focus,.eventattr .modal-body>form>div a:active{
+    text-decoration:none;
+}
+.eventattr .modal-body>form>div.text input{
+    width: 300px;
+    float: left;
+    height:35px;
+    line-height: 35px;
+    text-indent: 17px;
+    border: 1px solid #7dd1f1;
+    font-size: 16px;
+    font-weight: normal !important;
+}
+.eventattr .modal-body>form>div.text>a{
+    float: left;
+    display: block;
+    margin-left: 15px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    border-radius: 50px;
+    background: #00b1ad;
+    font-family: "黑体";
+    font-size: 16px;
+    font-weight: bold;
+    margin-top:3px;
+}
+.eventattr .modal-body>form>div.btn_b label{
+    margin-right: 0;
+}
+.eventattr .modal-body>form>div.btn_b div{
+    overflow: hidden;
+}
+.eventattr .modal-body>form>div.btn_b a{
+    float: left;
+    display: block;
+    margin-left: 15px;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    border-radius: 10px;
+    background: #7dd1f1;
+    font-family: "黑体";
+    font-size: 15px;
+    /*margin-top: 10px;*/
+    margin-bottom: 10px;
+}
+.eventattr .modal-body>form>div.btn_b a:hover,.eventattr .modal-body>form>div.btn_b a.active{
+    background: #006fb6;
+}
+.eventattr .modal-body form>div .sel-box5{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #7dd1f1;
+    width:300px !important;
+}
+.eventattr .modal-body form>div .sel-box5 .selectpick_div{
+     height: 32px !important;
+    line-height: 32px !important;
+}
+.eventattr .modal-body form>div .sel-box5 .selectpick_options{
+    top:32px !important;
+}
+.eventattr .modal-body form>div .selectpick_icon {
+    float: right;
+    background: url(../img/bottom3.png) no-repeat center;
+    height: 24px;
+    width: 60px;
+    cursor: pointer;
+    margin: 5px 3px;
+}
+.eventattr .modal-body form>div .selectpick_options ul li.selectpick_options_selected {
+    background-color: #00b5b1;
+    color: #fff;
+    z-index: 9060;}
+.eventattr .modal-body form>div .selectpick_options li:hover{
+    background-color:#00b5b1;
+}
+
+.eventattr .modal-body form>div .sel-box6{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    border: 1px solid #7dd1f1;
+    width:300px !important;
+}
+.eventattr .modal-body form>div .sel-box6 .selectpick_div{
+     height: 32px !important;
+    line-height: 32px !important;
+}
+.eventattr .modal-body form>div .sel-box6 .selectpick_options{
+    top:32px !important;
+}
+
+
+/*事件负责人处理人选择*/
+.sjperchoice_box{
+    display: none;
+    padding-right: 17px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1051;
+}
+.modal .sjperchoice{
+    width:860px;
+    height:597px;
+    margin:-300px 0 0 -430px;
+}
+.modal .sjperchoice .modal-body{
+    height: 485px;
+}
+.modal .sjperchoice .sjperchoice_left{
+    float: left;
+    width: 25%;
+    margin-top: 15px;
+}
+.modal .sjperchoice .sjperchoice_left h3{
+    margin:0;
+    font-size: 18px;
+    line-height: 22px;
+}
+.sjperchoice_left .zz_box{
+    width: 100%;
+    height:425px;
+    overflow-x:scroll;
+    overflow-y:scroll;
+    background: #daf1fc; 
+    margin-top: 10px;
+}
+.modal .sjperchoice .sjperchoice_right{
+    float: right;
+    width: 70%;
+    height:457px;margin-top: 15px;
+}
+.sjperchoice_right_search{
+    width: 100%;
+    height: 32px;
+}
+.sjperchoice_right_search h3{
+    float: left;
+    font-size: 18px;
+    line-height: 22px;
+    color:#000000;
+    margin:0;
+    margin-right:10px;
+}
+.sjperchoice_right_search input{
+    float: left;
+    width: 70%;
+    height: 32px;
+    border:1px solid #99d9f3;
+    border-right: none;
+    text-indent: 10px;
+    line-height: 22px;
+    margin-top: -5px;
+    outline:none;
+}
+.sjperchoice_right_search button{
+    float: left;
+    width: 20%;
+    height: 32px;
+    border:1px solid #99d9f3;
+    border-left: none;
+    text-indent: 10px;
+    line-height: 22px;
+    margin-top: -5px;
+    outline:none;
+    padding:1px;
+    background: url(../img/perchoice_right_search.jpg) center center #ffffff;
+}
+.sjperchoice_right_tb{
+    margin-top: 10px;
+    width: 100%;
+    border:1px solid #99d9f3;
+    min-height: 415px;
+}
+.sjperchoice_right_tb table{
+    width: 100%;
+    overflow: hidden;
+}
+.sjperchoice_right_tb table thead{
+    background: #daf1fc;
+   
+    border-bottom:1px solid #99d9f3;
+}
+.sjperchoice_right_tb table thead th{
+    text-align: center;
+    width: 20%;
+    font-size: 14px;
+     height: 32px;
+     line-height: 32px;
+}
+.sjperchoice_right_tb table td>div{
+    margin-top: 10px;
+}
+
+
+
+.sjperchoice_right_tb table tr td{
+    text-align: center;
+    border-bottom:1px solid #ade1f5;
+    height: 56px;
+}
+.sjperchoice_right_tb table td .r-check{
+    width: 15%;
+}
+.sjperchoice_right_tb table td .r-check li{
+    line-height:34px;
+    position: relative;
+
+}
+.sjperchoice_right_tb table td .r-check li input{
+    position: absolute;
+    top: -3px;
+     left: 0px; 
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    opacity:0;
+}
+.sjperchoice_right_tb table td .r-check li label{
+    font-weight:normal;
+    font-size:15px;
+    margin-left:25px;
+    width: 20px;
+    height: 20px;
+}
+
+.sjperchoice_right_tb table td .r-check li label:before{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top:0px;
+    border: 1px solid #9e9e9e;
+    line-height: 20px;
+}
+.sjperchoice_right_tb table td .r-check .gou-active label:before{
+    content:url("../img/gou-02.jpg");
+}
+.sjperchoice_right_tb .fenpage{
+    float: right;
+    overflow: hidden;
+   /* width: 50%;*/
+    margin-top: 10px;
+}
+.sjperchoice_right_tb .fenpage a{
+    float: left;
+    width: 24px;
+    height:24px;
+    margin:0 5px;
+    text-decoration:none;
+     line-height: 24px;
+    text-align: center;
+    background: #daf1fc;
+    border:1px solid #99d9f3;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    behavior: url(PIE.htc);
+    font-size: 14px;
+    color:#0ca3dc;
+    font-family: "黑体";
+    float: left;
+    font-weight: bold;
+}
+.sjperchoice_right_tb .fenpage ul,.sjperchoice_right_tb .fenpage ul li{
+    float: left;
+    padding:0;
+}
+
+.sjperchoice_right_tb .fenpage a:hover,.sjperchoice_right_tb .fenpage a.active{
+    color:#ffffff;
+    background: #0ca3dc
+}
+
+/*服务目录点击效果JS样式*/
+/*.fwml{
+    cursor: pointer;
+}*/
+
+/*服务目录查看样式*/
+.serve_box>div.text{
+    background: #daebf1;
+    /*padding-left: 30px;*/
+    padding:10px 0 10px 30px;
+}
+.text_box1 p{
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding:5px;
+    color:#006bae;
+    margin:10px auto;
+    font-size: 15px;
+}
+.text_box2 div{
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding:5px;
+    color:#006bae;
+    margin:10px auto;
+    font-size: 15px;
+    overflow: hidden;
+}
+.text_box2 div>p{
+    display: block;
+    float: left;
+    width: 80px;
+     color:#006bae;
+    font-size: 15px;
+}
+.text_box2 div> span{
+    margin-left: 5%;
+    display: block;
+    float: left;
+    width: 70%;
+     color:#006bae;
+    font-size: 15px;
+    overflow: hidden;
+}
+.text_box3 div{
+    width: 33%;
+    float: left;
+    text-align: left;
+    padding:5px;
+    color:#006bae;
+    margin:5px auto;
+    font-size: 15px;
+    overflow: hidden;
+}
+.text_box3 div>p{
+    display: block;
+    float: left;
+    width: 100px;
+     color:#006bae;
+    font-size: 15px;
+}
+.text_box3 div> span{
+    display: block;
+    float: left;
+    width: 70%;
+     color:#006bae;
+    font-size: 15px;
+    overflow: hidden;
+}
+
+.serve_imgupdate_right>div p{
+    float:left;
+    color:#666666;
+    font-size: 15px;
+    height: 46px;
+    line-height: 46px;
+}
+.serve_imgupdate_left1 {
+    overflow: hidden;
+}
+
+.serve_imgupdate_left1 .serve_imgupdate{
+    float: left;
+    width: 50%;
+}
+.serve_imgupdate_left1 .serve_imgupdate img{
+    margin:0 auto;
+    border:1px solid #7dd1f1;
+    width: 70%;
+    height: 140px;
+}
+.serve_imgupdate_left1 .serve_imgupdate p{
+    width: 70%;
+    height: 35px;
+    line-height: 35px;
+    display: block;
+    font-size: 14px;
+    font-family: "黑体";
+    font-weight: bold;
+    color: #00b5b1;
+    margin:5px auto;
+    text-align: center;
+}
+
+.serve_nenu1{
+    width: 100%;
+    overflow: hidden;
+    background: #f9f9f9;
+    border:1px solid #e9e9e9;
+}
+.serve_nenu1 .serve_box>div{
+    margin: 0px 5%;
+    overflow: hidden;
+}
+
+/*添加与编辑字符类型部分*/
+.hid{
+        display: none;
+    }
+/*事件分类下拉框*/
+.sjfl_box{
+    position: relative;
+}
+.sjfl_box>div{
+    width: 300px;
+    height: 260px;
+    overflow-y: scroll;
+    position: absolute;
+    background: #eff6e4;
+    border: 1px solid #cccccc;
+    top: 34px;
+    left: 115px;
+    z-index: 1053;
+}
+
+
+
+
+/*工单处理人选择弹出框*/
+
+.gdperchoice_box{
+    display: none;
+    padding-right: 17px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1051;
+}
+.modal .gdperchoice{
+    width:880px;
+    height:597px;
+    margin:-300px 0 0 -440px;
+}
+.modal .gdperchoice .modal-body{
+    height: 485px;
+}
+.modal .gdperchoice .gdperchoice_left{
+    float: left;
+    width: 25%;
+    margin-top: 15px;
+}
+.modal .gdperchoice .gdperchoice_left h3{
+    margin:0;
+    font-size: 18px;
+    line-height: 22px;
+}
+.gdperchoice_left .zz_box{
+    width: 100%;
+    height:425px;
+    overflow-x:scroll;
+    overflow-y:scroll;
+    background: #daf1fc; 
+    margin-top: 10px;
+}
+.modal .gdperchoice .gdperchoice_right{
+    float: right;
+    width: 70%;
+    height:457px;margin-top: 15px;
+}
+.gdperchoice_right>div.gdperchoice_right_tb_box{
+    overflow: hidden;
+    width: 99.5%;
+}
+.gdperchoice_right_search{
+    width: 100%;
+    height: 32px;
+}
+.gdperchoice_right_search h3{
+    float: left;
+    font-size: 18px;
+    line-height: 22px;
+    color:#000000;
+    margin:0;
+    margin-right:10px;
+}
+.gdperchoice_right_search input{
+    float: left;
+    width: 70%;
+    height: 32px;
+    border:1px solid #99d9f3;
+    border-right: none;
+    text-indent: 10px;
+    line-height: 22px;
+    margin-top: -5px;
+    outline:none;
+}
+.gdperchoice_right_search button{
+    float: left;
+    width: 20%;
+    height: 32px;
+    border:1px solid #99d9f3;
+    border-left: none;
+    text-indent: 10px;
+    line-height: 22px;
+    margin-top: -5px;
+    outline:none;
+    padding:1px;
+    background: url(../img/perchoice_right_search.jpg) center center #ffffff;
+}
+.gdperchoice_right_tb{
+    margin-top: 10px;
+    width: 80%;
+    border:1px solid #99d9f3;
+    min-height: 415px;
+    float: left;
+}
+.gdperchoice_right_tb table{
+    width: 100%;
+    overflow: hidden;
+}
+.gdperchoice_right_tb table thead{
+    background: #daf1fc;
+    width: 100%;
+    border-bottom:1px solid #99d9f3;
+}
+.gdperchoice_right_tb table thead th{
+    text-align: center;
+    width: 20%;
+    font-size: 14px;
+     height: 32px;
+     line-height: 32px;
+}
+/*.gdperchoice_right_tb table thead th:nth-child(1){
+    width:15%;
+}
+.gdperchoice_right_tb table thead th:nth-child(2){
+    width:15%;
+}
+.gdperchoice_right_tb table thead th:nth-child(3){
+    width:10%;
+}
+.gdperchoice_right_tb table thead th:nth-child(4){
+    width:10%;
+}*/
+.gdperchoice_right_tb table td>div{
+    margin-top: 10px;
+}
+
+
+
+.gdperchoice_right_tb table tr td{
+    text-align: center;
+    border-bottom:1px solid #ade1f5;
+    height: 56px;
+}
+.gdperchoice_right_tb table tr td a{
+    width: 68px;
+    height: 28px;
+    line-height: 28px;
+    background: #009fe3;
+    text-align: center;
+    color:#ffffff;
+    display: inline-block;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius:8px;
+    -ms-border-radius:8px;
+    behavior: url(PIE.htc);
+}
+.gdperchoice_right_tb .fenpage{
+    float: right;
+    overflow: hidden;
+   /* width: 65%;*/
+    margin-top: 10px;
+}
+.gdperchoice_right_tb .fenpage a{
+    float: left;
+    width: 24px;
+    height:24px;
+    margin:0 5px;
+    text-decoration:none;
+     line-height: 24px;
+    text-align: center;
+    background: #daf1fc;
+    border:1px solid #99d9f3;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    behavior: url(PIE.htc);
+    font-size: 14px;
+    color:#0ca3dc;
+    font-family: "黑体";
+    float: left;
+    font-weight: bold;
+}
+.gdperchoice_right_tb .fenpage ul,.gdperchoice_right_tb .fenpage ul li{
+    float: left;
+    padding:0;
+}
+
+.gdperchoice_right_tb .fenpage a:hover,.gdperchoice_right_tb .fenpage a.active{
+    color:#ffffff;
+    background: #0ca3dc
+}
+
+.xzry{
+    width: 18%;
+    background: #daf1fc;
+    margin-top: 10px;
+    border: 1px solid #99d9f3;
+    min-height: 415px;
+    float: right;
+}
+.xzry label{
+    float:none;
+    text-align: center;
+    margin-top: 10px;
+}
+.xzry>div{
+    overflow: hidden;
+    margin:15px;
+}
+.xzry>div p{
+    float: left;
+    margin-right:5px;
+}
+.xzry>div a{
+    float: left;
+}
+
+
+@media (max-width: 1500px) {
+    .text_box3 div{
+        width: 50%;
+    }
+}
